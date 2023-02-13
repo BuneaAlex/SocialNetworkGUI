@@ -1,0 +1,137 @@
+#welcomePagePane
+{
+    -fx-background-image: url('../images/homepageimg.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-height: 100%;
+    -fx-pref-width: 100%;
+}
+
+.scroll-pane > .viewport  {
+    -fx-background-image: url('../images/whitebackimg.jpg');
+    -fx-background-size: cover;
+}
+
+.root
+{
+    -fx-background-image: url('../images/whitebackimg.jpg');
+    -fx-background-size: cover;
+}
+
+.button
+{
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+}
+
+#signInButton
+{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+#signUpButton
+{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: derive;
+    -fx-stroke: transparent;
+    -fx-size:30;
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center;
+
+}
+.table-row-cell:filled:hover {
+
+    -fx-size:30;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+
+
+}
+.table-view:row-selection {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-fixed-cell-size: 30;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+
+}
+
+.table-view .table-column{
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER
+
+}
+
+.text-field {
+    -fx-background-color:
+            #FFFFFF,
+            #FFFFFF;
+    -fx-background-insets: 0, 2;
+    -fx-border-radius: 10 0 10 0;
+    -fx-background-radius: 10 0 10 0;
+}
+
+.text-field:focused {
+    -fx-background-color:
+            #0093EF,
+            #FFFFFF;
+}
+
+.text-field:hover {
+    -fx-background-color:
+            #909090,
+            #FFFFFF;
+}
+
+.text-field:focused:hover {
+    -fx-background-color:
+            #0093EF,
+            #FFFFFF;
+}
+
+.label
+{
+    -fx-font-family: "Arial Black";
+    -fx-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0, 0, 0, 0.5) , 3, 0.0 , 0 , 1 );
+}
+
+#welcomeLabel
+{
+    -fx-font-family: "GloriousFree";
+}
