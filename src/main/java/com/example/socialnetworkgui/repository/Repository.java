@@ -2,6 +2,7 @@ package com.example.socialnetworkgui.repository;
 
 
 import com.example.socialnetworkgui.domain.Entity;
+import com.example.socialnetworkgui.domain.validators.ValidationException;
 
 /**
  * CRUD operations repository interface

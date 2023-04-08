@@ -1,11 +1,8 @@
 package com.example.socialnetworkgui.controller;
 
 
-import com.example.socialnetworkgui.domain.FriendRequest;
 import com.example.socialnetworkgui.domain.User;
 import com.example.socialnetworkgui.utils.SimpleAlertBuilder;
-import com.example.socialnetworkgui.utils.events.FriendRequestEvent;
-import com.example.socialnetworkgui.utils.observer.Observer;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
